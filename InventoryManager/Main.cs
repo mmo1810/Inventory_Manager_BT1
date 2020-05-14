@@ -46,7 +46,7 @@ namespace InventoryManager
         public void btnadd_Click_1(object sender, EventArgs e)
         {
             //check if user didn't enter anything
-            if (namebox.Text == "" && pricebox.Text == "" && quantitybox.Text == "")
+            if (namebox.Text == "" || pricebox.Text == "" || quantitybox.Text == "")
             {
                 MessageBox.Show("Please enter the infomation !");
             }
